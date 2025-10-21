@@ -1,0 +1,11 @@
+name = "janitor-puter-bridge"
+main = "worker.js"
+compatibility_date = "2024-10-15"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+
+# Optional: Add environment variables here
+# [vars]
+# PUTER_API_KEY = ""
