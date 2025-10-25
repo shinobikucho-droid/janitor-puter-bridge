@@ -1,0 +1,25 @@
+{
+  "name": "janitor-puter-bridge",
+  "version": "1.0.0",
+  "description": "OpenAI-compatible proxy bridge for Janitor AI to Puter.js",
+  "main": "worker.js",
+  "type": "module",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "tail": "wrangler tail"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers",
+    "proxy",
+    "janitor-ai",
+    "puter-js",
+    "openai-compatible"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.78.0"
+  }
+}
